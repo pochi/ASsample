@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <output>
+    <movie width="800"/>
+    <movie height="600"/>
+    <movie disabled="False"/>
+    <movie input=""/>
+    <movie background="#FFFFFF"/>
+    <movie version="10"/>
+    <movie path="bin-debug/HelloWorld.swf"/>
+    <movie fps="32"/>
+  </output>
+  <classpaths>
+    <class path="src"/>
+  </classpaths>
+  <build>
+    <option showActionScriptWarnings="True"/>
+    <option showBindingWarnings="True"/>
+    <option showDeprecationWarnings="True"/>
+    <option showUnusedTypeSelectorWarnings="True"/>
+    <option strict="True"/>
+    <option useNetwork="True"/>
+    <option useResourceBundleMetadata="True"/>
+    <option warnings="True"/>
+    <option verboseStackTraces="False"/>
+    <option linkReport=""/>
+    <option staticLinkRSL="False"/>
+    <option additional=""/>
+    <option compilerConstants=""/>
+    <option accessible="False"/>
+    <option customSDK=""/>
+    <option allowSourcePathOverlap="False"/>
+    <option locale=""/>
+    <option benchmark="False"/>
+    <option es="False"/>
+    <option loadConfig=""/>
+    <option optimize="False"/>
+  </build>
+  <includeLibraries/>
+  <libraryPaths/>
+  <externalLibraryPaths/>
+  <rslPaths/>
+  <intrinsics/>
+  <library/>
+  <compileTargets>
+    <compile path="src/HelloWorld.as"/>
+  </compileTargets>
+  <hiddenPaths/>
+  <preBuildCommand>null</preBuildCommand>
+  <postBuildCommand alwaysRun="False">null</postBuildCommand>
+  <options>
+    <option showHiddenPaths="False"/>
+    <option testMovie="ExternalPlayer"/>
+  </options>
+</project>
